@@ -79,6 +79,34 @@ nav ul {
     color: white;
     border-radius: 5px;
     padding: 18px 35px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {}
+
+.button1 {
+    border: 2px solid #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    background-color: white;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+
+}
+
+.button:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.button1:hover {
+    background-color: #FD6E0A;
+    color: white;
 }
 
 /*Banner Styling*/

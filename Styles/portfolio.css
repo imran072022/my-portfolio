@@ -4,6 +4,9 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+* {
+  box-sizing: border-box;
+}
 
 /*Color and shared items*/
 
@@ -69,6 +72,8 @@ nav li a {
 nav ul {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -82,10 +87,6 @@ nav ul {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
-.button:hover {
-}
-
 .button1 {
   border: 2px solid #fd6e0a;
   font-weight: bold;
@@ -349,6 +350,7 @@ textarea {
 .hide {
   display: none;
 }
+
 @media screen and (max-width: 576px) {
   .skill-container,
   .resume-container,
@@ -360,6 +362,12 @@ textarea {
   }
   .resume-container {
     padding: 5px;
+  }
+  .resume-title {
+    margin-bottom: 90px;
+  }
+  .resume {
+    margin-top: 40px;
   }
   footer,
   .about {
@@ -381,5 +389,17 @@ textarea {
   }
   .banner-image {
     width: 100%;
+  }
+  nav {
+    margin: 0;
+  }
+  ul {
+    gap: 5px;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  .btnresponsive {
+    margin-bottom: 5px;
   }
 }

@@ -1,353 +1,385 @@
 .open-sans-font {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 /*Color and shared items*/
 
 .text-color {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .dark-1 {
-    color: #181818;
+  color: #181818;
 }
 
 .dark-2 {
-    color: #474747;
+  color: #474747;
 }
 
 .dark-3 {
-    color: #757575;
+  color: #757575;
 }
 
 .bg-color {
-    background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 /*Header*/
 .header {
-    background-image: url("../images/developer.png"), url("../images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: left top, right bottom;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
 }
 
 /* Nav styles*/
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 230px 0px 226px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 230px 0px 226px;
 }
 
 .nav-title {
-    font-size: 45px;
-    font-weight: 800;
+  font-size: 45px;
+  font-weight: 800;
 }
 
 nav ul li {
-    list-style: none;
-    margin-right: 51px;
+  list-style: none;
+  margin-right: 51px;
 }
 
 nav li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .button {
-    background-color: #FD6E0A;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    padding: 18px 35px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.button:hover {}
-
-.button1 {
-    border: 2px solid #FD6E0A;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 18px 35px;
-    color: #FD6E0A;
-    background-color: white;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease;
-
-
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 35px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .button:hover {
-    box-shadow: 1px 1px 5px black;
+}
+
+.button1 {
+  border: 2px solid #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 18px 35px;
+  color: #fd6e0a;
+  background-color: white;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 5px black;
 }
 
 .button1:hover {
-    background-color: #FD6E0A;
-    color: white;
+  background-color: #fd6e0a;
+  color: white;
 }
 
 /*Banner Styling*/
 .banner-semi-title {
-    font-weight: 600;
-    font-size: 45px;
+  font-weight: 600;
+  font-size: 45px;
 }
 
 .banner-title {
-    font-size: 85px;
-    font-weight: bold;
+  font-size: 85px;
+  font-weight: bold;
 }
 
 .banner-description {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .banner-image {
-    width: 585px;
-
+  width: 585px;
 }
 
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 38px 0 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 38px 0 230px;
 }
 
 .banner-content {
-    max-width: 585px;
+  max-width: 585px;
 }
 
 /*Main styling*/
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 main section {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
 /* About Section Styling*/
 .about {
-    background-color: #FFF8F3;
-    text-align: center;
-    padding: 130px 156px;
-    border-radius: 5px;
-
-
+  background-color: #fff8f3;
+  text-align: center;
+  padding: 130px 156px;
+  border-radius: 5px;
 }
 
 .about-box {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .about-title {
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
-    margin-top: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-top: 0px;
 }
 
 .about-description {
-    font-size: 18px;
-    font-weight: 400px;
-    color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #757575;
 }
 
 .about-items {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .item-title {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #757575;
-    line-height: 0.1;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+  line-height: 0.1;
 }
 
 .item-description {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
 }
 
 /*Skill section styling*/
 
 .skill-section-title {
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
 }
 
 .skill-section-description {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 /*Cards styling using flexbox*/
 .skill-container {
-    display: flex;
-    gap: 24px;
-
+  display: flex;
+  gap: 24px;
 }
 
 .skill {
-    padding: 33px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+  padding: 33px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
 
 .skill-title {
-    font-weight: bold;
-    font-size: 20px;
-    color: #181818;
+  font-weight: bold;
+  font-size: 20px;
+  color: #181818;
 }
 
 .skill-description {
-    font-weight: 400px;
-    color: #757575;
-    font-size: 16px;
-    line-height: 30px;
+  font-weight: 400px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 /*Resume Section Styling*/
 .resume-title {
-    font-weight: bold;
-    font-size: 35px;
-    color: #181818;
-    margin-bottom: 113px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 113px;
 }
 
 .resume-container {
-    display: flex;
-    gap: 71px;
+  display: flex;
+  gap: 71px;
 }
 
-.resume-column {}
+.resume-column {
+  padding: 10px;
+}
 
 .resume-column-title {
-    font-weight: bold;
-    font-size: 30px;
-    color: #474747;
-    margin-top: 0px;
-    margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
-
 .experience-name {
-    font-weight: bold;
-    font-size: 30px;
-    color: #474747;
-    margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
 }
 
 .experience-title {
-    font-weight: bold;
-    font-size: 25px;
-    color: #474747;
-    margin-bottom: 10px;
-    margin-top: 0px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .experience-subtitle {
-    font-weight: 600;
-    color: #757575;
-    font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+  font-weight: 600;
+  color: #757575;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .experience-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #757575;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #757575;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 hr {
-    color: #D1D1D1;
-    margin: 30px auto;
+  color: #d1d1d1;
+  margin: 30px auto;
 }
 
 .download-button {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 /*Footer Styling*/
 footer {
-    display: flex;
-    padding: 130px 230px;
-    gap: 117px;
-    margin-top: 113px;
+  display: flex;
+  padding: 130px 230px;
+  gap: 117px;
+  margin-top: 113px;
 }
 
 .footer-title {
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
 .footer-column {
-    width: 50%;
+  width: 50%;
 }
 
 .footer-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #474747;
-    margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 30px;
 }
 
 input[type="text"],
 [type="email"] {
-
-    border: none;
-    font-size: 16px;
-    padding: 18px 30px;
-    border-radius: 5px;
-    display: block;
-    width: 100%;
-    margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 textarea {
-    border: none;
-    font-size: 16px;
-    border-radius: 5px;
-    display: block;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .skill-container,
+  .resume-container,
+  footer,
+  .about-items,
+  .banner,
+  nav {
+    flex-direction: column;
+  }
+  .resume-container {
+    padding: 5px;
+  }
+  footer,
+  .about {
+    padding: 20px;
+  }
+  .footer-column {
     width: 100%;
-    padding: 18px 30px;
-    margin-bottom: 24px;
+  }
+  input[type="text"],
+  [type="email"],
+  textarea {
+    width: calc(100% - 60px);
+  }
+  .banner {
+    margin: 10px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner-image {
+    width: 100%;
+  }
 }
